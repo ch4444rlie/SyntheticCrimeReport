@@ -1,0 +1,67 @@
+// XML Structure
+digraph {
+	fontname=Arial fontsize=12 rankdir=TB size="8,10"
+	node [fillcolor=lightblue fontname=Arial shape=box style=filled]
+	edge [color=navy]
+	1 [label="Incident (NIEM: Crime Event)" fillcolor=lightyellow]
+	2 [label="ActivityIdentification (NIEM: Unique ID)" fillcolor=lightblue]
+	1 -> 2
+	3 [label=IdentificationID fillcolor=lightblue]
+	2 -> 3
+	4 [label="ActivityDate (NIEM: Timestamp)" fillcolor=lightblue]
+	1 -> 4
+	5 [label=DateTime fillcolor=lightblue]
+	4 -> 5
+	6 [label="ActivityCategoryText (NIEM: Crime Type)" fillcolor=lightblue]
+	1 -> 6
+	7 [label=ActivityDescriptionText fillcolor=lightblue]
+	1 -> 7
+	8 [label="Location (NIEM: Place)" fillcolor=lightblue]
+	1 -> 8
+	9 [label=AddressFullText fillcolor=lightblue]
+	8 -> 9
+	10 [label=LocationDescriptionText fillcolor=lightblue]
+	8 -> 10
+	11 [label=LocationArea fillcolor=lightblue]
+	8 -> 11
+	12 [label=AreaName fillcolor=lightblue]
+	11 -> 12
+	13 [label=ActivityDescriptionText fillcolor=lightblue]
+	1 -> 13
+	14 [label=ActivityStatus fillcolor=lightblue]
+	1 -> 14
+	15 [label=StatusText fillcolor=lightblue]
+	14 -> 15
+	16 [label="Person (NIEM: Individual)" fillcolor=lightblue]
+	1 -> 16
+	17 [label=PersonName fillcolor=lightblue]
+	16 -> 17
+	18 [label=PersonFullName fillcolor=lightblue]
+	17 -> 18
+	19 [label=ActivityInvolvedPersonAssociation fillcolor=lightblue]
+	1 -> 19
+	20 [label=PersonReference fillcolor=lightblue]
+	19 -> 20
+	21 [label=PersonActivityInvolvementText fillcolor=lightblue]
+	19 -> 21
+	22 [label="Person (NIEM: Individual)" fillcolor=lightblue]
+	1 -> 22
+	23 [label=PersonName fillcolor=lightblue]
+	22 -> 23
+	24 [label=PersonFullName fillcolor=lightblue]
+	23 -> 24
+	25 [label=ActivityInvolvedPersonAssociation fillcolor=lightblue]
+	1 -> 25
+	26 [label=PersonReference fillcolor=lightblue]
+	25 -> 26
+	27 [label=PersonActivityInvolvementText fillcolor=lightblue]
+	25 -> 27
+	28 [label="IncidentReportingOfficial (NIEM: Reporting Officer)" fillcolor=lightblue]
+	1 -> 28
+	29 [label="Person (NIEM: Individual)" fillcolor=lightblue]
+	28 -> 29
+	30 [label=PersonName fillcolor=lightblue]
+	29 -> 30
+	31 [label=PersonFullName fillcolor=lightblue]
+	30 -> 31
+}
