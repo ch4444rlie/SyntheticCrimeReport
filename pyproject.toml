@@ -1,0 +1,19 @@
+[project]
+name = "niemworld"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "faker>=37.4.0",
+    "graphistry>=0.36.2",
+    "ipykernel>=6.29.5",
+    "ipywidgets>=8.1.7",
+    "kuzu>=0.10.0",
+    "lxml>=5.4.0",
+    "matplotlib>=3.10.3",
+    "networkx>=3.4.2",
+    "pandas>=2.2.3",
+    "requests>=2.32.3",
+    "xmlschema>=4.1.0",
+]
