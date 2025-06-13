@@ -45,3 +45,6 @@ The **National Information Exchange Model (NIEM)** standardizes data sharing for
 - Practice standardized data structuring.
 - Understand government requirements for data exchange.
 - Simulate real-world tagging scenarios.
+
+![chicago_niem_structure](https://github.com/user-attachments/assets/45bb63c9-26da-42f1-bb63-4cf50197251a)
+
